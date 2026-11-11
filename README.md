@@ -1,4 +1,4 @@
-# graphify-com
+# Graphify
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-graphify-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://graphify.com/
+Graphify Labs builds shared context of codebase for agents and developers, grounded in real code. Open‑source core, backed by Y Combinator (S26). The platform provides a unified graph of APIs, SDKs and documentation, enabling AI agents to understand and interact with software ecosystems efficiently.
+
+**Areas:** code graph · developer tools · source code analysis · pull request review · open source · hosted service
+
+## Graphify on APIs.io
+
+Everything profiled for Graphify is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/graphify-com/](https://apis.io/providers/graphify-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Graphify API](https://apis.io/apis/graphify-com/graphify-api/) — Graphify provides a hosted MCP server and a developer portal; no public OpenAPI spec was found.
+- [Graphify API](https://apis.io/apis/graphify-com/graphify-com-api/) — Graphify API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [PostMcpRequest](https://apis.io/schemas/graphify-com/graphify-com-post-mcp-request/)
+- [PostV1ReposRepositoryidTestImpactRequest](https://apis.io/schemas/graphify-com/graphify-com-post-v1-repos-repositoryid-test-impact-request/)
+- [PostV1ReposRepositoryidTestImpactResponse](https://apis.io/schemas/graphify-com/graphify-com-post-v1-repos-repositoryid-test-impact-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Graphify Com Context](https://apis.io/jsonld/graphify-com/graphify-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Graphify API Rules](https://apis.io/rules/graphify-com/graphify-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Graphify Authentication](https://apis.io/security/graphify-com/graphify-com-authentication/)
+- [Graphify Domain Security](https://apis.io/security/graphify-com/graphify-com-domain-security/)
+- [Graphify Trust Center](https://apis.io/security/graphify-com/graphify-com-trust-center/)
+- [Graphify Vulnerability Disclosure](https://apis.io/security/graphify-com/graphify-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Graphify Plans Pricing](https://apis.io/plans/graphify-com/graphify-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Graphify Rate Limits](https://apis.io/rate-limits/graphify-com/graphify-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://graphify.com/)
+- [Documentation](https://docs.graphify.com/)
+- [Getting started](https://docs.graphify.com/platform/quickstart)
+- [API reference](https://docs.graphify.com/reference/overview)
+- [Pricing](https://graphify.com/pricing)
+- [Changelog](https://graphify.com/changelog)
+- [Blog](https://graphify.com/blog)
+- [Security](https://graphify.com/security)
+- [Compliance](https://graphify.com/security)
+- [Terms of service](https://graphify.com/terms)
+- [Privacy policy](https://graphify.com/privacy)
+- [GitHub](https://github.com/Graphify-Labs)
+
+## API Evangelist rating
+
+**Kin Score 65.4** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 51.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 75.8 |
+
+**Agent readiness 47.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/graphify-com/](https://apis.io/providers/graphify-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Graphify: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/graphify-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
